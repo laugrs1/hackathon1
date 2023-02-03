@@ -43,6 +43,9 @@ const config = {
     trace: 'on-first-retry',
     //Added for headed mode
     headless: false,
+    launchOptions: {
+      slowMo: 300,
+    },
   },
 
   /* Configure projects for major browsers */
