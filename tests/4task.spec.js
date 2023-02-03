@@ -1,8 +1,8 @@
 import { test, expect } from '@playwright/test';
 
-test('test', async ({ page }) => {
+test('4 task', async ({ page }) => {
   await page.goto('https://jacksonpollock.org/');
-  
+
   await page.locator('#myCanvas').click({
     position: {
       x: 593,
