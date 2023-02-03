@@ -44,7 +44,7 @@ const config = {
     //Added for headed mode
     headless: false,
     launchOptions: {
-      slowMo: 50,
+      slowMo: 100,
     },
   },
 
