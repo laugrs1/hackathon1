@@ -1,5 +1,5 @@
 import { test, expect } from '@playwright/test';
-test('test', async ({ page }) => {
+test('First task. Jumping 6 frogs', async ({ page }) => {
   await page.goto('https://mikeleshtembari.github.io/jumping-frogs/');
 
   await page.locator('span:nth-child(3) > img').click();
