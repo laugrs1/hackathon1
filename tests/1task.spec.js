@@ -42,3 +42,4 @@ test('Solution to 10 Jumping Frogs Puzzle', async ({ page }) => {
   
   await expect(page.getByText('Game solved')).toBeVisible();
 });
+
